@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patagoniaTest-main/PatagoniaTest.iml" filepath="$PROJECT_DIR$/patagoniaTest-main/PatagoniaTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configServer/demo.iml" filepath="$PROJECT_DIR$/configServer/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/patagonia-Test.iml" filepath="$PROJECT_DIR$/.idea/patagonia-Test.iml" />
+    </modules>
+  </component>
+</project>
