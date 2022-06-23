@@ -1,5 +1,22 @@
-spring:
-  cloud:
-    config:
-      enabled: true
-      uri: http://localhost:8081
+  spring:
+    datasource:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/patagonia_test
+      username: root
+      password: root
+    cloud:
+      config:
+        enabled: true
+        uri: http://localhost:8001
+    jpa:
+      hibernate.ddl-auto: update
+      generate-ddl: true
+      show-sql: true
+    application:
+      name: clientService
+
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka/
+
